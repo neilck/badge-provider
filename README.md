@@ -6,7 +6,7 @@ This repository implements a Badge Provider, that automates the awarding of Nost
 **Badge Award Request from Client to Badge Provider**
 
 Clients maintain a list of badge providers containing
-  1. Badge definition event address pointer (30009:<public key>:identifier)
+  1. Badge definition event address pointer (`30009:<public key>:identifier`)
   2. Badg Provider URL
 
 The client directs a user to obtain a badge by redirecting to badge provider, including an NIP-98 HTTP Auth event in the header.
