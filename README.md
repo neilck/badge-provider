@@ -2,7 +2,16 @@
 This repository implements a Badge Provider, that automates the awarding of Nostr badges when called by client applications.
 
 ## Workflow
+**Badge Configuration in AKA Profiles***
 
+1. User logs into Badge Provider and selects a Badge Template
+2. User provides configruation data (if nessary) and saves.
+3. Upon save, Badge Definition event is generated.
+4. Award URL displayed, & register with AKA Profiles option provided.
+6. Badge Definition contains tag "awardUrl" which points to badge provider.
+
+**
+   
 **Badge Award Request from Client to Badge Provider**
 
 Clients maintain a list of badge providers containing
